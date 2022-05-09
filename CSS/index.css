@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	background: url(https://blog.hubspot.es/hubfs/Descarga%20de%20fondos%20para%20pa%CC%81ginas%20web.jpg) no-repeat;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	font-family: Century Gothic,sans-serif;
+	font-weight: bold;
+
+}
+
+.box{
+	width: 500px;
+	background: rgb(0, 0, 0, .4);
+	margin: 0 auto;
+	margin-top: 10%;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+	margin-bottom: 3%;
+}
+
+
+
+.box-img{
+	border-radius: 50%;
+	width: 50%;
+
+}
+
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+	margin: 30px 0 20px;
+
+}
+
+.box h2 {
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.box p {
+	text-align: justify;
+
+}
+
+.box ul{
+	list-style: none;
+	margin-top: 20px;
+
+}
+
+.box ul li{
+	display: inline-block;
+}
+
+.box ul li a{
+	color: white;
+	font-size: 45px;
+	padding: 10px 5px;
+	display: block;
+	transition: all 0.5s;
+
+
+}
+.box ul li a:hover{
+	color: #b9b9b9;
+	transform: scale(1.1);
+
+}
+
+/*esto es de barra de navegacion*/
+
+.header {
+	background: rgb(0, 0, 0, .4);
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	max-width: 992px;
+	margin: 0 auto;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+
+}
+
+.logo {
+	font-size: 20px;
+	
+	padding: 10 12px;
+	line-height: 80px;
+	border-radius: 35px;
+
+}
+
+.logo:hover{
+	background-color:#63ADF7 ;
+	transition: 1s;
+}
+
+.nav-menu {
+	display: flex;
+	margin-right: 40px;
+	list-style: none;
+} 
+
+.nav-menu-item {
+	font-size: 20px;
+	margin: 0 15px;
+	line-height: 80px;
+	text-transform: uppercase;
+	width: max-content;
+
+}
+
+
+.menu-links{
+	padding:10px 12px ;
+	border-radius: 35px;
+
+}
+
+.menu-links:hover{
+	background-color:#63ADF7 ;
+	transition: 1s;
+
+}
+
